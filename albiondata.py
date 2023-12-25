@@ -29,18 +29,18 @@ def calc_inputs():
     ingredient3 = CALC["B9"].value
     ingredient4 = CALC["B10"].value
     ingredient5 = CALC["B11"].value
-    
-    input_list = pd.DataFrame({"Items": [product, ingredient1, ingredient2, ingredient3, ingredient4, ingredient5]})
+    input_list = pd.DataFrame({"Item Name":
+        [product, ingredient1, ingredient2, ingredient3, ingredient4, ingredient5]})
+    input_list = input_list[~(input_list == 0).all(axis=1)]
     return input_list
 
 def calc_to_df():
     """Dataframe to Excel Comparison"""
     input_lists = calc_inputs()
-    api_item = calc_df["Item ID"].loc[calc_df["Item Name"] == input_lists]
+    api_item = pd.merge(input_lists,calc_df, on="Item Name", how="left" )[["Item ID", "Item Name"]]
     return api_item
 
 # REQUEST = requests.get(PRICE_URL + )
-
 
 
 
