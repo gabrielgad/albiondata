@@ -1,0 +1,1 @@
+This is a app which pulls Albion Online API data for computation in others. The goal is to eventually create a fully functioning of all the web scrapped data for Albion online marketplace, and then perform operations on a front end GUI for market flips or crafting. 
