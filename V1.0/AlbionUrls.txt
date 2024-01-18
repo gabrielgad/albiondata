@@ -28,12 +28,8 @@ https://albiononline2d.com/en/item/cat/cityresources/subcat/vineheart
 https://albiononline2d.com/en/item/cat/consumables/subcat/cooked
 https://albiononline2d.com/en/item/cat/consumables/subcat/fish
 https://albiononline2d.com/en/item/cat/consumables/subcat/fishingbait
-https://albiononline2d.com/en/item/cat/consumables/subcat/kill_emotes
 https://albiononline2d.com/en/item/cat/consumables/subcat/maps
-https://albiononline2d.com/en/item/cat/consumables/subcat/other
 https://albiononline2d.com/en/item/cat/consumables/subcat/potion
-https://albiononline2d.com/en/item/cat/consumables/subcat/skillbook
-https://albiononline2d.com/en/item/cat/consumables/subcat/vanity
 https://albiononline2d.com/en/item/cat/farmables/subcat/animals
 https://albiononline2d.com/en/item/cat/farmables/subcat/seed
 https://albiononline2d.com/en/item/cat/luxurygoods/subcat/any
@@ -50,6 +46,7 @@ https://albiononline2d.com/en/item/cat/magic/subcat/froststaff
 https://albiononline2d.com/en/item/cat/magic/subcat/holystaff
 https://albiononline2d.com/en/item/cat/magic/subcat/naturestaff
 https://albiononline2d.com/en/item/cat/materials/subcat/essence
+https://albiononline2d.com/en/item/cat/materials/subcat/other
 https://albiononline2d.com/en/item/cat/materials/subcat/relic
 https://albiononline2d.com/en/item/cat/materials/subcat/rune
 https://albiononline2d.com/en/item/cat/materials/subcat/soul
@@ -82,7 +79,6 @@ https://albiononline2d.com/en/item/cat/offhand/subcat/totem
 https://albiononline2d.com/en/item/cat/products/subcat/animals
 https://albiononline2d.com/en/item/cat/products/subcat/cooked
 https://albiononline2d.com/en/item/cat/products/subcat/farming
-https://albiononline2d.com/en/item/cat/products/subcat/journal
 https://albiononline2d.com/en/item/cat/ranged/subcat/bow
 https://albiononline2d.com/en/item/cat/ranged/subcat/crossbow
 https://albiononline2d.com/en/item/cat/resources/subcat/cloth
@@ -96,12 +92,6 @@ https://albiononline2d.com/en/item/cat/resources/subcat/planks
 https://albiononline2d.com/en/item/cat/resources/subcat/rock
 https://albiononline2d.com/en/item/cat/resources/subcat/stoneblock
 https://albiononline2d.com/en/item/cat/resources/subcat/wood
-https://albiononline2d.com/en/item/cat/skillbooks/subcat/skillbook
-https://albiononline2d.com/en/item/cat/skillbooks/subcat/skillbook_fiber
-https://albiononline2d.com/en/item/cat/skillbooks/subcat/skillbook_hide
-https://albiononline2d.com/en/item/cat/skillbooks/subcat/skillbook_ore
-https://albiononline2d.com/en/item/cat/skillbooks/subcat/skillbook_rock
-https://albiononline2d.com/en/item/cat/skillbooks/subcat/skillbook_wood
 https://albiononline2d.com/en/item/cat/tools/subcat/demolitionhammer
 https://albiononline2d.com/en/item/cat/tools/subcat/fishing
 https://albiononline2d.com/en/item/cat/tools/subcat/pickaxe
