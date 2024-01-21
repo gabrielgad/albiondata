@@ -39,6 +39,7 @@ class ProductSearchApp:
         self.create_widgets()
 
     def create_widgets(self):
+        """Creates GUI"""
         self.search_label = tk.Label(self.root, text="Search Product:")
         self.search_label.pack(pady=10)
 
@@ -55,6 +56,7 @@ class ProductSearchApp:
         self.fetch_button.pack(pady=10)
 
     def search_product(self, event):
+        """Search Call on DB from GUI"""
         product_name = self.search_entry.get()
         data = fetch_data_by_product(self.connection, product_name)
 
@@ -67,8 +69,8 @@ class ProductSearchApp:
                 self.result_tree.insert("", "end", values=[row['Product']])
 
     def fetch_prices(self):
+        """Calls the API"""
         product_name = self.search_entry.get()
-        # You may need to replace 'your_api_key' with a valid API key if required by the API
         api_url = f'https://west.albion-online-data.com/api/v2/stats/Prices/{product_name}'
         response = requests.get(api_url)
 
